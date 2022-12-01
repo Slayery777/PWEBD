@@ -1,0 +1,28 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    font-size: 14pt;
+}
+input{
+    width: 175px;
+    height: 50px;
+    font-size: 15px;
+}
+#container, #canvas {
+    width: 400px; height: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+#triangle_info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:lemonchiffon;
+    border-radius: 20px;
+}
+#triangle_info div{
+    margin: 20px;
+}
